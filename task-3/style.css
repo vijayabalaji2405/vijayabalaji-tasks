@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+}
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.containers {
+  width: 300px;
+  padding: 45px 45px;
+}
+.container-1 {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 12px 0 0 12px;
+}
+.container-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+.container-3 {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 12px 12px 0;
+}
+.text {
+  margin-top: 20px;
+  line-height: 24px;
+  font-size: 15px;
+}
+.he {
+  margin-bottom: 30px;
+}
+.button {
+  font-size: 15px;
+
+  margin-top: 40px;
+}
+
+.button1 {
+  border-radius: 32px;
+  height: 40px;
+  width: 125px;
+  background-color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(31, 77%, 52%);
+}
+.button2 {
+  border-radius: 32px;
+  height: 40px;
+  width: 125px;
+  background-color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(184, 100%, 22%);
+}
+.button3 {
+  border-radius: 32px;
+  height: 40px;
+  width: 125px;
+  background-color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(179, 100%, 13%);
+}
+.he {
+  font-family: "Big Shoulders Display";
+  font-weight: 400;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+}
+.text {
+  font-family: "Lexend Deca";
+
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.button1 {
+  color: hsl(31, 77%, 52%);
+}
+.button2 {
+  color: hsl(184, 100%, 22%);
+}
+.button3 {
+  color: hsl(179, 100%, 13%);
+}
